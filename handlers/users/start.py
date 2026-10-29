@@ -7,3 +7,5 @@ async def start(msg: types.Message):
     n +="/help\n"
     n += "/aniqla\n"
     await msg.answer(n)
+
+    print("hello")
